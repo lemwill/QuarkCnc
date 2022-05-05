@@ -332,12 +332,15 @@
         "silk_overlap|31090000|20200000|a9be4b5d-f131-48cf-a412-110742682419|157c4837-7eee-4c65-b042-c74f2240769c",
         "silk_overlap|31090000|20200000|a9be4b5d-f131-48cf-a412-110742682419|e3a4b267-d55f-4a72-b2da-422888a39e56",
         "silk_overlap|31090000|20240000|157c4837-7eee-4c65-b042-c74f2240769c|a9be4b5d-f131-48cf-a412-110742682419",
+        "silk_overlap|31090000|20240000|19bc19b9-343c-44b0-9704-2469f1731021|a9be4b5d-f131-48cf-a412-110742682419",
+        "silk_overlap|31090000|20240000|74eac22c-4c49-407b-ab65-6c6af61e415d|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|31090000|20240000|e3a4b267-d55f-4a72-b2da-422888a39e56|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|32980000|300200000|1f823103-f351-4b68-8aaa-eb3d475fcff1|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|32980000|300200000|a9be4b5d-f131-48cf-a412-110742682419|1f823103-f351-4b68-8aaa-eb3d475fcff1",
         "silk_overlap|33860000|300200000|a9be4b5d-f131-48cf-a412-110742682419|f860a709-6a7b-4ae8-93d7-f88f9824ccb8",
         "silk_overlap|33860000|300200000|f860a709-6a7b-4ae8-93d7-f88f9824ccb8|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|38410000|20200000|a9be4b5d-f131-48cf-a412-110742682419|befb5be0-4d34-46de-ae96-765b170928f7",
+        "silk_overlap|38410000|20240000|43630567-34de-4581-b75e-c885d002c056|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|38410000|20240000|befb5be0-4d34-46de-ae96-765b170928f7|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|39100000|20200000|f8bc04d7-f447-485d-a5ff-e47c7ca56152|a4780535-49a4-4bca-b0fe-8f30e3e51e6f",
         "silk_overlap|39100000|20200000|f8bc04d7-f447-485d-a5ff-e47c7ca56152|cef5f337-1c55-471e-9ece-2b5174da7586",
@@ -365,6 +368,7 @@
         "silk_overlap|54810000|20240000|6d654a51-c540-43f3-81b5-7d237a48b8d9|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|55310000|300200000|24a2be04-fbe9-4d88-bfe8-ecd259c54b65|a9be4b5d-f131-48cf-a412-110742682419",
         "silk_overlap|55310000|300200000|a9be4b5d-f131-48cf-a412-110742682419|24a2be04-fbe9-4d88-bfe8-ecd259c54b65",
+        "silk_overlap|55500000|72245000|9262b32a-6556-49aa-9d5f-9f0281057ef3|18447e65-79e7-423c-b0eb-c1ab5dc41ee3",
         "silk_overlap|55690000|20200000|a9be4b5d-f131-48cf-a412-110742682419|48d4f554-36a5-4cd9-b34b-cb67f8ac01c9",
         "silk_overlap|55690000|20200000|a9be4b5d-f131-48cf-a412-110742682419|57a4dbe6-818c-4aaf-b45a-b626003f8a2f",
         "silk_overlap|55690000|20240000|48d4f554-36a5-4cd9-b34b-cb67f8ac01c9|a9be4b5d-f131-48cf-a412-110742682419",
@@ -738,7 +742,7 @@
     ]
   },
   "meta": {
-    "filename": "GrblHalCNC.kicad_pro",
+    "filename": "QuarkCnc.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -857,18 +861,6 @@
       "STEPPER DRIVER X"
     ],
     [
-      "0612303a-d03b-4844-ae2c-c0b57aa1faa1",
-      "level_shifter_1"
-    ],
-    [
-      "3ecc2c0a-d970-43e7-ab22-73c67def0567",
-      "level_shifter_2"
-    ],
-    [
-      "7584c897-8ae7-405a-a23b-0a18ed7fa21a",
-      "level_shifter_3"
-    ],
-    [
       "9dca3b7a-1ee4-4126-82b7-e300df41a1e1",
       "LIMX"
     ],
@@ -889,10 +881,6 @@
       "Spindle Isolated RS485"
     ],
     [
-      "0612303a-d03b-4844-ae2c-c0b57aa1faa1",
-      "level_shifter_1"
-    ],
-    [
       "6ed377bc-c780-464a-91a0-d1c5cec4f3cf",
       "5V Switching Regulator"
     ],
@@ -901,20 +889,8 @@
       "STEPPER DRIVER A"
     ],
     [
-      "3ecc2c0a-d970-43e7-ab22-73c67def0567",
-      "level_shifter_2"
-    ],
-    [
       "320a2b06-21df-426e-a98f-a64b02fc30f4",
       "Isolated Inputs and Outputs"
-    ],
-    [
-      "7584c897-8ae7-405a-a23b-0a18ed7fa21a",
-      "level_shifter_3"
-    ],
-    [
-      "b22a919c-952d-447d-9b4a-be21aedc45ed",
-      "level_shifter_x3_A"
     ],
     [
       "b47e0407-6b46-48f1-ad7c-dd2d2bd66cca",
@@ -927,14 +903,6 @@
     [
       "2106a4a2-d62c-4118-9c54-dc8820c71ded",
       "mcu1"
-    ],
-    [
-      "0612303a-d03b-4844-ae2c-c0b57aa1faa1",
-      "level_shifter_1"
-    ],
-    [
-      "3ecc2c0a-d970-43e7-ab22-73c67def0567",
-      "level_shifter_2"
     ],
     [
       "020c50b2-15fc-4383-8c0d-64ee9f931371",
@@ -958,7 +926,7 @@
     ],
     [
       "9934072c-5674-4ed3-9146-61b9347f189d",
-      "Untitled Sheet"
+      "Spindle isolated analog"
     ],
     [
       "b9e8f4dc-3c00-4a2e-bee9-102fbacff9cc",
@@ -977,64 +945,76 @@
       "Isolated supply 12V"
     ],
     [
-      "c3af4ed1-8aff-4513-b73c-293bb9946c08",
-      "digital_out2"
-    ],
-    [
-      "4b119156-5b87-49d8-a176-ec3ca910e787",
-      "level_shifter_x3_B"
-    ],
-    [
-      "6ff72129-d008-4cd2-ac57-17c64e91d107",
-      "digital_out3"
+      "db116570-74a6-4be1-bcf5-b0932b4f727d",
+      "debounce1"
     ],
     [
       "38f8d3bd-e7b2-4bc1-80d3-461213e5ea9e",
       "debounce"
     ],
     [
-      "5b7ef612-2b06-4721-9133-44501f8b2249",
-      "debounce1"
-    ],
-    [
-      "7584c897-8ae7-405a-a23b-0a18ed7fa21a",
-      "level_shifter_3"
-    ],
-    [
-      "7d5163b1-6509-4ddf-8bdf-3c7814ed3f3a",
-      "level_shifter_x3_Z"
-    ],
-    [
       "0612303a-d03b-4844-ae2c-c0b57aa1faa1",
       "level_shifter_1"
+    ],
+    [
+      "b02841c5-8e8b-4efc-9c62-4bf5876821e8",
+      "digital_out2"
+    ],
+    [
+      "86d05c91-bba4-4985-aeff-080482816d9f",
+      "digital_out3"
     ],
     [
       "3ecc2c0a-d970-43e7-ab22-73c67def0567",
       "level_shifter_2"
     ],
     [
-      "7584c897-8ae7-405a-a23b-0a18ed7fa21a",
-      "level_shifter_3"
-    ],
-    [
-      "68ef07cc-7990-4460-9d93-00502299b713",
-      "level_shifter_x3_Y"
-    ],
-    [
-      "0612303a-d03b-4844-ae2c-c0b57aa1faa1",
-      "level_shifter_1"
-    ],
-    [
-      "3ecc2c0a-d970-43e7-ab22-73c67def0567",
-      "level_shifter_2"
+      "4244612e-a7bf-498e-b695-d234185b9d90",
+      "isolated_outputs"
     ],
     [
       "7584c897-8ae7-405a-a23b-0a18ed7fa21a",
       "level_shifter_3"
     ],
     [
-      "f113b00b-f164-4fb2-bf0c-7c87de60d2ee",
-      "level_shifter_x3_X"
+      "3e7138d2-07a2-49d7-bd65-85ac6fb78779",
+      "Level Shifters"
+    ],
+    [
+      "0ae9c75f-fda6-4457-985e-b86374a68136",
+      "emergency_stop"
+    ],
+    [
+      "05d739f4-8a93-45ca-a1bc-9b53d787bfe0",
+      "level_shifter_4"
+    ],
+    [
+      "288ae15c-dfa7-4ace-bfb9-27865db9b732",
+      "level_shifter_5"
+    ],
+    [
+      "e1d1b82f-2035-4ade-8c78-79fbbcdbd650",
+      "level_shifter_10"
+    ],
+    [
+      "bb6610b5-79be-47dc-ba66-2c1bbca09a90",
+      "level_shifter_9"
+    ],
+    [
+      "4d40a756-7a06-4ba0-a613-749fce49bfc4",
+      "level_shifter_8"
+    ],
+    [
+      "cadaebaf-094e-410f-80ae-c1a7d87b0296",
+      "level_shifter_6"
+    ],
+    [
+      "43de5a9c-041d-45cf-9337-dc92fbedd4ce",
+      "level_shifter_7"
+    ],
+    [
+      "fb5b6c40-f2ff-4446-842a-686559a766bf",
+      "level_shifter_11"
     ],
     [
       "2d6b61b4-2a83-4486-958e-2d7bf2df0353",
